@@ -1,0 +1,362 @@
+*{
+    margin: 0px;
+    font-family: 'Comic Neue', cursive;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+.top_bar{
+    display: flex;
+    background-color: gray;
+    width: 100%;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+#offer{
+    width: 200px;
+    height: 65px;
+    background-color: lightgreen;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.nav_bar{
+    margin-right: 20px;
+}
+.nav_items{
+    color: white;
+    display: inline;
+    list-style: none;
+    align-items: center;
+
+}
+
+.navigation{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navigation .left{
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation .right{
+    width: 15%;
+    height: 100px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav_bar > ul{
+    list-style: none;
+    display: inline;
+}
+
+.cart_items > ul li{
+    display: inline;
+    list-style: none;
+    
+}
+
+.selection{
+    font-size: 28px;;
+}
+
+.selection:hover{
+    background-color: lightgreen;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_cat{
+    width: 1200px;
+    height: 563px;
+    padding: 75px;
+}
+
+.main_content{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+.lesser_content{
+    margin: auto;
+    width: 1200px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.l_content{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+#first_cat{
+    position: relative;
+}
+
+#first_cat::after {
+    content:'';
+    background: url("https://media.istockphoto.com/photos/cute-european-cat-portrait-picture-id692783492?k=20&m=692783492&s=612x612&w=0&h=hpZ--arjHRgtZmWdGs1aUNEAhQ_mkO1Hz0CXZ8OmlAA=")
+    no-repeat center center;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+
+#second_cat{
+    position: relative;
+}
+
+#second_cat::after {
+    content:'';
+    background-image: url('https://duckduckgrayduck.files.wordpress.com/2012/05/cat-sneaking.gif');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+
+#third_cat{
+    position: relative;
+}
+
+#third_cat::after {
+    content:'';
+    background-image: url('https://i.imgflip.com/2650xo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+
+.highlights {
+    font-size: 24px;;
+    background: white;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+ }
+ 
+ .highlights h2 {
+    color: #4fbfa8;
+    animation: 4s slide-right;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+ }
+ 
+ @keyframes slide-right {
+     from {
+        margin-left: -700px;
+     }
+ 
+     to {
+        margin-left: 550px;
+     }
+  }
+
+  .adoption{
+      
+      margin-top: 50px;
+      width: 100%;
+      height:600px;
+      display: flex;
+      justify-content: space-around;
+}
+
+  .cats{ 
+    color: black;
+    background: white;
+    width: 200px;
+    height: 597px;
+    position: relative;
+  }
+
+  #fourth_cat{
+    width: 200px;
+    height: 400px;
+  }
+
+  #fifth_cat{
+    width: 200px;
+    height: 400px;
+  }
+
+  #sixth_cat{
+    width: 200px;
+    height: 400px;
+  }
+
+  #seventh_cat{
+    width: 200px;
+    height: 400px;
+  }
+
+  #eigth_cat{
+    width: 200px;
+    height: 400px;
+  }
+
+  .cats > ul li{
+      margin-top: 10px;
+  }
+
+  .last_content{
+      background: white;
+      width: 100%;
+      height: 500px;
+      text-align: center;
+      margin: 20px;
+
+  }
+
+#last_cat{
+    width: 1200px;
+    height: 420px;
+}
+
+.blog{
+    width: 100%;
+    height: 110px;
+    background: white;
+    text-align: center;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.closing{
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.para{
+    background: white;
+    width: 500px;
+    height: 240px;
+}
+.para > h2, h3{
+    text-align: center;
+    color: #4fbfa8;
+}
+
+.para > p{
+    border-top: 1px solid #a4dbd0;
+    margin: 20px;
+}
+
+.btn{
+    background: #a4dbd0;
+    width: 150px;
+    height: 50px;
+    margin-left: 30%;
+    margin-right: 30%
+
+}
+
+.links{
+    background: #e0e0e0;
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.go_to{
+    width: 250px;
+    margin: 20px;
+}
+
+.go_to > ul li{
+    list-style: none;
+    margin: 20px;
+}
+#map{
+    display: flex;
+    align-items: center;
+}
+
+.go_to > h4{
+    font-size: 20px;
+}
+
+#btn_two{
+    background: #a4dbd0;
+    width: 70px;
+    height: 25px;
+    margin-top: 16px;
+}
+
+.btn2{
+    display: flex;
+   
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: lightgreen;
+
+}
+
+/* Questions for Teo
+
+Why did my scroll bar at the bottom appear?
+how to make animation scroll through like a banner? */
